@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+.home-2{
+    background-color: #ED8F47;
+    position: relative;
+    background: linear-gradient(to right, #fff 50%, #ED8F47 50%);
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+
+.home-h1{
+    font-size: 130px;
+    margin:0px;
+    line-height: 186px;
+    font-weight: 700;
+    width: 960px;
+    color: #29292B;
+    padding-left: 80px;
+    vertical-align: middle;
+      font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    letter-spacing: 0%;
+}
+
+
+.gray-baground{
+    width: 720px;
+    background: lightgray;
+    height: 130px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    line-height: 35px;
+    gap: 10px;
+    font-weight: 700;
+}
+
+
+
+.home-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 60px   ;
+}
+
+
+.home-p{
+    width: 581px;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #585E6C;
+    line-height: 35px;
+    height: 175px;
+    padding-left: 80px;
+}
+
+
+.ad{
+    color: #585E6C;
+}

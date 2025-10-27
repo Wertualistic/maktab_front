@@ -1,0 +1,140 @@
+/* .d-cards{
+    height: 531px;
+    width: 1280px;
+}
+
+
+
+.b-imgs{
+    background-image: url('./src/assets/boks.svg');
+    width: 360px;
+    height: 460px;
+    color: white;
+    display: flex;
+    align-items: start;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
+.m-imgs{
+    background-image: url('./src/assets/music.svg');
+    width: 360px;
+    height: 460px;
+    color: white;
+    display: flex;
+    align-items: start;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
+.r-imgs{
+    background-image: url('./src/assets/registan.svg');
+    width: 360px;
+    height: 460px;
+    color: white;
+    display: flex;
+    align-items: start;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
+.h-imgs{
+    background-image: url('./src/assets/hands.svg');
+    width: 360px;
+    height: 460px;
+    color: white;
+    display: flex;
+    align-items: start;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+} */
+
+
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.slider-wrapper {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.butons{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.slider {
+  overflow: hidden; 
+  width: 100%;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  min-width: 360px;
+  height: 480px;
+  margin: 0 10px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  position: relative;
+}
+
+.overlay {
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 240px;
+}
+
+/* Tugmalar */
+.arrow {
+  background: rgba(0,0,0,0.4);
+  color: white;
+  border: none;
+  font-size: 26px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.3s;
+  width: 30px;
+  height: 30px;
+}
+
+.arrow:hover {
+  background: rgba(0,0,0,0.6);
+}
+
+.arrow.left {
+  margin-right: 10px; 
+}
+
+.arrow.right {
+  margin-left: 10px;
+}
+
+/* --- Rasmlar CSS orqali beriladi --- */
+.b-imgs { background-image: url('./src/assets/boks.svg'); }
+.m-imgs { background-image: url('./src/assets/music.svg'); }
+.r-imgs { background-image: url('./src/assets/registan.svg'); }
+.h-imgs { background-image: url('./src/assets/hands.svg'); }
+.s-imgs { background-image: url('./src/assets/boks.svg'); }
+.p-imgs { background-image: url('./src/assets/music.svg'); }
+.a-imgs { background-image: url('./src/assets/registan.svg'); }
+.i-imgs { background-image: url('./src/assets/hands.svg'); }
