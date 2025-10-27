@@ -1,0 +1,66 @@
+.card{
+    width: 313px;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: start;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: white;
+    color: black;
+}
+
+
+.text{
+    font-size: 14px;
+    color: #585E6C;
+    line-height: 26px;
+    height: 182px;
+    font-weight: 600;
+    width: 65%;
+}
+
+
+.type{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+}
+
+
+.advantages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px   ;
+    height: 700px;
+    background: linear-gradient(135deg, #ED8F47 2%, #fffbf8 100%);
+    flex-direction: column;
+    position: relative;
+
+}
+
+.star1{
+    position: absolute;
+    top: 75px;
+    left: 70px;
+}
+
+
+.star2{
+    position: absolute;
+    bottom: 50px;
+    right: 60px;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+}
+
+
+.afzaliklar{
+  color: white;
+}

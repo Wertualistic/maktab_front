@@ -1,0 +1,92 @@
+.news {
+  padding: 60px 0;
+}
+
+/* Sarlavha */
+.news h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  padding-left: 80px;
+}
+
+/* === FLEX GRID === */
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* === KARTA === */
+.data-items {
+  position: relative;
+  border-radius: 16px;
+}
+
+/* Rasm — original o‘lcham saqlansin */
+.data-items img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* Gradient overlay */
+
+
+/* Label (type) */
+.data-items h4 {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* Ranglar */
+.data-items h4.event {
+  background-color: #4b4b4b;
+}
+
+.data-items h4.creatives {
+  background-color: #ffb800;
+}
+
+.data-items h4.travel {
+  background-color: #00c7b7;
+}
+
+.data-items h4.health {
+  background-color: #ff3b3b;
+}
+
+.data-items h4.education {
+  background-color: #7b61ff;
+}
+
+/* Matn va sana */
+.data-items p {
+  position: absolute;
+  bottom: 35px;
+  left: 12px;
+  right: 12px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.4;
+  z-index: 2;
+}
+
+.data-items span {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  color: #bfbfbf;
+  font-size: 13px;
+  z-index: 2;
+}
